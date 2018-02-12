@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		087D00D2202FD20300096BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D00D1202FD20300096BAA /* AppDelegate.m */; };
-		087D00D5202FD20300096BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D00D4202FD20300096BAA /* ViewController.m */; };
 		087D00D8202FD20300096BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087D00D6202FD20300096BAA /* Main.storyboard */; };
 		087D00DA202FD20300096BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087D00D9202FD20300096BAA /* Assets.xcassets */; };
 		087D00DD202FD20300096BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087D00DB202FD20300096BAA /* LaunchScreen.storyboard */; };
 		087D00E0202FD20300096BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D00DF202FD20300096BAA /* main.m */; };
 		087D00EA202FD20300096BAA /* WeatherCTRLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D00E9202FD20300096BAA /* WeatherCTRLTests.m */; };
 		087D00F5202FD20300096BAA /* WeatherCTRLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D00F4202FD20300096BAA /* WeatherCTRLUITests.m */; };
+		088D72CF20310655006274B0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 088D72CE20310655006274B0 /* Settings.bundle */; };
+		088D72D120310EC5006274B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088D72D020310EC5006274B0 /* MapKit.framework */; };
+		088D732A20310FFC006274B0 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731520310FFA006274B0 /* CustomAnnotationView.m */; };
+		088D732B20310FFC006274B0 /* HelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731820310FFA006274B0 /* HelperViewController.m */; };
+		088D732C20310FFC006274B0 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731920310FFA006274B0 /* CustomAnnotation.m */; };
+		088D732D20310FFC006274B0 /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731A20310FFA006274B0 /* CityViewController.m */; };
+		088D732E20310FFC006274B0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731B20310FFB006274B0 /* HomeViewController.m */; };
+		088D732F20310FFC006274B0 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731D20310FFB006274B0 /* Weather.m */; };
+		088D733020310FFC006274B0 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731E20310FFB006274B0 /* LocationsViewController.m */; };
+		088D733120310FFC006274B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D731F20310FFB006274B0 /* AppDelegate.m */; };
+		088D733220310FFC006274B0 /* ForecastViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D732320310FFB006274B0 /* ForecastViewCell.m */; };
+		088D733320310FFC006274B0 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D732420310FFB006274B0 /* LocationTableViewCell.m */; };
+		088D733420310FFC006274B0 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D732920310FFC006274B0 /* Server.m */; };
+		088D733720311029006274B0 /* SettingsBundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 088D733520311029006274B0 /* SettingsBundleHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +48,6 @@
 
 /* Begin PBXFileReference section */
 		087D00CD202FD20300096BAA /* WeatherCTRL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherCTRL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		087D00D0202FD20300096BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		087D00D1202FD20300096BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		087D00D3202FD20300096BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		087D00D4202FD20300096BAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		087D00D7202FD20300096BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		087D00D9202FD20300096BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087D00DC202FD20300096BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,32 @@
 		087D00F0202FD20300096BAA /* WeatherCTRLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherCTRLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		087D00F4202FD20300096BAA /* WeatherCTRLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherCTRLUITests.m; sourceTree = "<group>"; };
 		087D00F6202FD20300096BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088D72CE20310655006274B0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = "../../../Downloads/Weather-master 7/Weather/SettingsHandler/Settings.bundle"; sourceTree = "<group>"; };
+		088D72D020310EC5006274B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		088D731420310FFA006274B0 /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityViewController.h; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/CityViewController.h"; sourceTree = "<group>"; };
+		088D731520310FFA006274B0 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotationView.m; path = "../../../Downloads/Weather-master 8/Weather/Custom View/CustomAnnotationView.m"; sourceTree = "<group>"; };
+		088D731620310FFA006274B0 /* HelperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperViewController.h; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/HelperViewController.h"; sourceTree = "<group>"; };
+		088D731720310FFA006274B0 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotation.h; path = "../../../Downloads/Weather-master 8/Weather/Custom View/CustomAnnotation.h"; sourceTree = "<group>"; };
+		088D731820310FFA006274B0 /* HelperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperViewController.m; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/HelperViewController.m"; sourceTree = "<group>"; };
+		088D731920310FFA006274B0 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotation.m; path = "../../../Downloads/Weather-master 8/Weather/Custom View/CustomAnnotation.m"; sourceTree = "<group>"; };
+		088D731A20310FFA006274B0 /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityViewController.m; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/CityViewController.m"; sourceTree = "<group>"; };
+		088D731B20310FFB006274B0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/HomeViewController.m"; sourceTree = "<group>"; };
+		088D731C20310FFB006274B0 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = "../../../Downloads/Weather-master 8/Weather/Model/Weather.h"; sourceTree = "<group>"; };
+		088D731D20310FFB006274B0 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = "../../../Downloads/Weather-master 8/Weather/Model/Weather.m"; sourceTree = "<group>"; };
+		088D731E20310FFB006274B0 /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationsViewController.m; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/LocationsViewController.m"; sourceTree = "<group>"; };
+		088D731F20310FFB006274B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "../../../Downloads/Weather-master 8/Weather/AppDelegate.m"; sourceTree = "<group>"; };
+		088D732020310FFB006274B0 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotationView.h; path = "../../../Downloads/Weather-master 8/Weather/Custom View/CustomAnnotationView.h"; sourceTree = "<group>"; };
+		088D732120310FFB006274B0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/HomeViewController.h"; sourceTree = "<group>"; };
+		088D732220310FFB006274B0 /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationsViewController.h; path = "../../../Downloads/Weather-master 8/Weather/ViewControllers/LocationsViewController.h"; sourceTree = "<group>"; };
+		088D732320310FFB006274B0 /* ForecastViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForecastViewCell.m; path = "../../../Downloads/Weather-master 8/Weather/Custom View/ForecastViewCell.m"; sourceTree = "<group>"; };
+		088D732420310FFB006274B0 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationTableViewCell.m; path = "../../../Downloads/Weather-master 8/Weather/Custom View/LocationTableViewCell.m"; sourceTree = "<group>"; };
+		088D732520310FFB006274B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "../../../Downloads/Weather-master 8/Weather/AppDelegate.h"; sourceTree = "<group>"; };
+		088D732620310FFC006274B0 /* LocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationTableViewCell.h; path = "../../../Downloads/Weather-master 8/Weather/Custom View/LocationTableViewCell.h"; sourceTree = "<group>"; };
+		088D732720310FFC006274B0 /* ForecastViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForecastViewCell.h; path = "../../../Downloads/Weather-master 8/Weather/Custom View/ForecastViewCell.h"; sourceTree = "<group>"; };
+		088D732820310FFC006274B0 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Server.h; path = "../../../Downloads/Weather-master 8/Weather/Model/Server.h"; sourceTree = "<group>"; };
+		088D732920310FFC006274B0 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Server.m; path = "../../../Downloads/Weather-master 8/Weather/Model/Server.m"; sourceTree = "<group>"; };
+		088D733520311029006274B0 /* SettingsBundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsBundleHelper.m; path = "../../../Downloads/Weather-master 8/Weather/SettingsHandler/SettingsBundleHelper.m"; sourceTree = "<group>"; };
+		088D733620311029006274B0 /* SettingsBundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsBundleHelper.h; path = "../../../Downloads/Weather-master 8/Weather/SettingsHandler/SettingsBundleHelper.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088D72D120310EC5006274B0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +120,7 @@
 				087D00E8202FD20300096BAA /* WeatherCTRLTests */,
 				087D00F3202FD20300096BAA /* WeatherCTRLUITests */,
 				087D00CE202FD20300096BAA /* Products */,
+				088D72D020310EC5006274B0 /* MapKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +137,31 @@
 		087D00CF202FD20300096BAA /* WeatherCTRL */ = {
 			isa = PBXGroup;
 			children = (
-				087D00D0202FD20300096BAA /* AppDelegate.h */,
-				087D00D1202FD20300096BAA /* AppDelegate.m */,
-				087D00D3202FD20300096BAA /* ViewController.h */,
-				087D00D4202FD20300096BAA /* ViewController.m */,
+				088D732520310FFB006274B0 /* AppDelegate.h */,
+				088D731F20310FFB006274B0 /* AppDelegate.m */,
+				088D731420310FFA006274B0 /* CityViewController.h */,
+				088D731A20310FFA006274B0 /* CityViewController.m */,
+				088D731720310FFA006274B0 /* CustomAnnotation.h */,
+				088D731920310FFA006274B0 /* CustomAnnotation.m */,
+				088D732020310FFB006274B0 /* CustomAnnotationView.h */,
+				088D731520310FFA006274B0 /* CustomAnnotationView.m */,
+				088D732720310FFC006274B0 /* ForecastViewCell.h */,
+				088D732320310FFB006274B0 /* ForecastViewCell.m */,
+				088D731620310FFA006274B0 /* HelperViewController.h */,
+				088D731820310FFA006274B0 /* HelperViewController.m */,
+				088D732120310FFB006274B0 /* HomeViewController.h */,
+				088D731B20310FFB006274B0 /* HomeViewController.m */,
+				088D732220310FFB006274B0 /* LocationsViewController.h */,
+				088D731E20310FFB006274B0 /* LocationsViewController.m */,
+				088D732620310FFC006274B0 /* LocationTableViewCell.h */,
+				088D732420310FFB006274B0 /* LocationTableViewCell.m */,
+				088D733620311029006274B0 /* SettingsBundleHelper.h */,
+				088D733520311029006274B0 /* SettingsBundleHelper.m */,
+				088D732820310FFC006274B0 /* Server.h */,
+				088D72CE20310655006274B0 /* Settings.bundle */,
+				088D732920310FFC006274B0 /* Server.m */,
+				088D731C20310FFB006274B0 /* Weather.h */,
+				088D731D20310FFB006274B0 /* Weather.m */,
 				087D00D6202FD20300096BAA /* Main.storyboard */,
 				087D00D9202FD20300096BAA /* Assets.xcassets */,
 				087D00DB202FD20300096BAA /* LaunchScreen.storyboard */,
@@ -238,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088D72CF20310655006274B0 /* Settings.bundle in Resources */,
 				087D00DD202FD20300096BAA /* LaunchScreen.storyboard in Resources */,
 				087D00DA202FD20300096BAA /* Assets.xcassets in Resources */,
 				087D00D8202FD20300096BAA /* Main.storyboard in Resources */,
@@ -265,9 +323,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				087D00D5202FD20300096BAA /* ViewController.m in Sources */,
+				088D732A20310FFC006274B0 /* CustomAnnotationView.m in Sources */,
+				088D733220310FFC006274B0 /* ForecastViewCell.m in Sources */,
 				087D00E0202FD20300096BAA /* main.m in Sources */,
-				087D00D2202FD20300096BAA /* AppDelegate.m in Sources */,
+				088D733120310FFC006274B0 /* AppDelegate.m in Sources */,
+				088D732F20310FFC006274B0 /* Weather.m in Sources */,
+				088D732D20310FFC006274B0 /* CityViewController.m in Sources */,
+				088D732B20310FFC006274B0 /* HelperViewController.m in Sources */,
+				088D732C20310FFC006274B0 /* CustomAnnotation.m in Sources */,
+				088D732E20310FFC006274B0 /* HomeViewController.m in Sources */,
+				088D733320310FFC006274B0 /* LocationTableViewCell.m in Sources */,
+				088D733420310FFC006274B0 /* Server.m in Sources */,
+				088D733720311029006274B0 /* SettingsBundleHelper.m in Sources */,
+				088D733020310FFC006274B0 /* LocationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +497,8 @@
 		087D00FA202FD20300096BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4NUC58L8K;
 				INFOPLIST_FILE = WeatherCTRL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poc.vishnu.WeatherCTRL;
@@ -442,8 +510,8 @@
 		087D00FB202FD20300096BAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4NUC58L8K;
 				INFOPLIST_FILE = WeatherCTRL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poc.vishnu.WeatherCTRL;
